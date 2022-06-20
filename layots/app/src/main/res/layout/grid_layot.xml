@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="4"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/btn1"
+            android:layout_margin="4dp"
+            android:background="#F44336"
+            android:padding="4dp"
+            android:text="111"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/btn2"
+            android:layout_margin="4dp"
+            android:background="#E91E63"
+            android:padding="4dp"
+            android:text="222"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/btn3"
+            android:layout_margin="4dp"
+            android:background="#673AB7"
+            android:padding="4dp"
+            android:text="333"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/btn4"
+            android:layout_margin="4dp"
+            android:background="#9183AA"
+            android:padding="4dp"
+            android:text="444"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/btn5"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_margin="4dp"
+            android:background="#03A9F4"
+            android:padding="4dp"
+            android:text="555"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/btn6"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_margin="4dp"
+            android:background="#F44336"
+            android:padding="4dp"
+            android:text="666"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/btn7"
+            android:layout_margin="4dp"
+            android:background="#4CAF50"
+            android:padding="4dp"
+            android:text="777"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/btn8"
+            android:layout_margin="4dp"
+            android:background="#979F48"
+            android:padding="4dp"
+            android:text="888"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/btn9"
+            android:layout_margin="4dp"
+            android:background="#979F48"
+            android:padding="4dp"
+            android:text="999"
+            android:textSize="40dp" />
+
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:background="@color/black" />
+    </GridLayout>
+
+
+</FrameLayout>

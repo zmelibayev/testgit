@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:drawableLeft="@drawable/ic_baseline_home_24"
+        android:paddingLeft="25dp"
+        android:text="Layot 1"
+        android:textSize="35dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+
+        android:drawableLeft="@drawable/ic_baseline_public_24"
+        android:paddingLeft="25dp"
+        android:text="Layot 2"
+        android:textSize="35dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+
+        android:drawableLeft="@drawable/ic_baseline_shopping_cart_24"
+        android:paddingLeft="25dp"
+        android:text="Layot 3"
+        android:textSize="35dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+
+        android:drawableLeft="@drawable/ic_baseline_phonelink_ring_24"
+        android:paddingLeft="25dp"
+        android:text="Layot 4"
+        android:textSize="35dp" />
+
+</LinearLayout>
